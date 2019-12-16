@@ -1,0 +1,282 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	background: #ebebeb;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Oswald", Arial, Sans-serif;
+	font-weight: normal;
+}
+
+ h2, h3, h4, h5, h6 {
+	color: #ff0000;
+}
+
+a {
+	text-decoration: none;
+	color: #5dbbd5;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.contenedor {
+	max-width: 1000px;
+	width: 90%;
+	margin: auto;
+}
+
+.izquierda {
+	float: left;
+}
+
+.derecha {
+	float: right;
+}
+
+/* --- Header ---*/
+
+header {
+	color:#FFF;
+	margin-bottom: 30px;
+	background: #C80000;
+}
+
+header .contenedor {
+	overflow: hidden;
+}
+
+header .logo {
+	 max-width: 300px;
+	 background: #C80000;
+}
+
+header .logo:hover{
+	 max-width: 300px;
+	 background: #FF0000;
+}
+
+header .logo a {
+	max-width: 300px;
+	color: #fff;
+	font-family: "Oswald", Arial, Sans-serif;
+	font-size: 28px;
+	line-height: 70px;
+}
+
+header .logo a img{
+	height: 70px;
+}
+
+header .apartado{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	height: 93px;
+	margin-left: 100px;
+	font-size: 25px;
+}
+
+header .menu {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	justify-content: center;
+}
+
+header .menu ul {
+	list-style: none;
+}
+
+header .menu  {
+	/*line-height: 70px;*/
+}
+
+header .menu  img {
+	color: #fff;
+	display: flex;
+	padding: ;
+	font-weight: bold;
+	height: 93px;
+	width: 300px;
+}
+
+header .menu  a {
+	background: #595959;
+	align-items: center;
+	color: #fff;
+	display: flex;
+	font-weight: bold;
+	justify-content: center;
+	text-align: center;
+	margin-right: 15PX;
+}
+
+header .menu a i {
+    margin-right: 5PX;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	justify-content: center;
+	padding-right: 5PX;
+	padding-left:  5PX;
+}
+
+header .menu a:hover {
+	background: #5dbbd5;
+	text-decoration: none;
+}
+
+header .menu ul li a .icono {
+	margin-left: 15px;
+}
+
+/* --- Post --- */
+.post {
+	width: 100%;
+	background: #fff;
+	box-shadow: 0px 0px 5px rgba(0,0,0, .5);
+	margin-bottom: 30px;
+	padding: 30px;
+}
+
+.post article .faviv{
+	color: #32ff00;
+}
+
+.post article .favir{
+	color: #BB1F35;
+}
+
+.post article .titulo {
+	font-family: "Oswald", Arial, Sans-serif;
+	font-size: 28px;
+	font-weight: normal;
+	line-height: 28px;
+	margin-bottom: 10px;
+}
+
+.post article .titulo a {
+	color:#000;
+}
+
+.post article .fecha {
+	color:#747474;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+.post article .thumb {
+	margin-bottom: 20px;
+}
+
+.post article .thumbb {
+	margin-bottom: 20px;
+}
+
+.post article .thumb img {
+	vertical-align: top;
+	width: 30%;
+}
+
+.post article .thumbb img {
+	vertical-align: top;
+	width: 100%;
+}
+
+.post article .extracto {
+	font-size: 14px;
+	line-height: 20px;
+	margin-bottom: 20px;
+}
+
+.post article .continuar {
+	color: #5dbbd5;
+	font-weight: bold;
+}
+
+.post ul {
+	padding: 30px;
+}
+
+.btn {
+	padding: 15px;
+	display: inline-block;
+	margin: 15px 0;
+	background: #C80000;
+	color:#fff;
+	font-size: 1em;
+	font-family: Arial, sans-serif, helvetica;
+	border-radius: 2px;
+	border:none;
+	cursor:pointer;
+}
+
+.btn:hover {
+	text-decoration: none;
+	background: #FF0000;
+}
+
+/* --- Footer --- */
+footer {
+	background: #C80000;
+	color: #fff;
+}
+
+footer .copyright {
+	text-align: center;
+	font-size: 14px;
+	padding: 15px 0;
+}
+
+/* --- Paginacion --- */
+
+.paginacion {
+	margin-bottom: 30px;
+}
+
+.paginacion ul {
+	list-style: none;
+	text-align: center;
+}
+
+.paginacion ul li {
+	display: inline-block;
+	margin:0 5px;
+	color:#fff;
+}
+
+.paginacion ul li a {
+	display: block;
+	padding:10px 20px;
+	background: #C80000;
+	color:#fff;
+}
+
+.paginacion ul li a:hover {
+	background: #ff0000;
+	text-decoration: none;
+}
+
+.paginacion ul .active {
+	background: #8E0000;
+	padding:10px 20px;
+}
+
+.paginacion ul .disabled{
+	background: #8E0000;
+	padding:10px 20px;
+	cursor: not-allowed;
+}
